@@ -1,2 +1,2 @@
-# Eks-mens
+# Eksāmens
 2PT eksāmena darbs
