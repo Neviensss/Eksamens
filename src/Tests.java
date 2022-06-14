@@ -8,72 +8,71 @@ public class Tests {
 	//uz nākamo jautājumu
 	static void j1() {
 		String pirmais;
-		pirmais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Niks || 2 - Arturs || 3 - Kaspars");
+		pirmais = JOptionPane.showInputDialog("1. Kura no darbībām izveidota pareizi \n1 - if(20%2==0) System.out.print(Skaitlis ir pāra) \n2 - if(20+2==0) System.out.print(Skaitlis ir pāra) \n3 - if(20/2==0) System.out.print(Skaitlis ir pāra) \n4 - if(20*2==0) System.out.print(Skaitlis ir pāra)?");
 		if(Integer.parseInt(pirmais) == 1) {
 			j2();
 		}else p1 = 1; j1();
 	}
-	
 	static void j2() {
 		String otrais;
-		otrais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Daniels || 2 - Arturs || 3 - Kaspars");
-		if(Integer.parseInt(otrais) == 1) {
+		otrais = JOptionPane.showInputDialog("2. Ja a = 8, b = 9 un c = 9, tad izteiksmes (a < b) || (b == c) vērtība ir \n1 - false \n2 - false||true \n3 - true||false \n4 - true");
+		if(Integer.parseInt(otrais) == 4) {
 			j3();
 		}else p2 = 1; j2();
 	}
 	static void j3() {
 		String tresais;
-		tresais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Rudolfs || 2 - Arturs || 3 - Kaspars");
-		if(Integer.parseInt(tresais) == 1) {
+		tresais = JOptionPane.showInputDialog("3. Ja a = -100, tad izteiksmes sqrt(a) vērtība ir \n1 - 0 \n2 - 10 \n3 - nav rezultāta \n4 - 100");
+		if(Integer.parseInt(tresais) == 3) {
 			j4();
 		}else p3 = 1; j3();
 	}
 	static void j4() {
 		String ceturtais;
-		ceturtais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Rudolfs || 2 - Arturs || 3 - Kaspars");
-		if(Integer.parseInt(ceturtais) == 1) {
+		ceturtais = JOptionPane.showInputDialog("4. Ja a = 5, b = 5 un c = 3, tad izteiksmes (a <= b) && (b <= c) vērtība ir \n1 - true && false \n2 - true \n3 - false && false \n4 - false");
+		if(Integer.parseInt(ceturtais) == 4) {
 			j5();
 		}else p4 = 1; j4();
 	}
 
 	static void j5() {
 		String piektais;
-		piektais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Rudolfs || 2 - Arturs || 3 - Kaspars");
+		piektais = JOptionPane.showInputDialog("5. Ja a = 10.527, tad izteiksmes round(a) vērtība ir \n1 - 11 \n2 - 10.53 \n3 - 10.52 \n4 - 10");
 		if(Integer.parseInt(piektais) == 1) {
 			j6();
 		}else p5 = 1; j5();
 	}
 	static void j6() {
 		String sestais;
-		sestais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Rudolfs || 2 - Arturs || 3 - Kaspars");
-		if(Integer.parseInt(sestais) == 1) {
+		sestais = JOptionPane.showInputDialog("6. Ja a = 10 un b = 5, tad izteiksmes a==b vērtība ir \n1 - true \n2 - 10 \n3 - false \n4 - 5");
+		if(Integer.parseInt(sestais) == 3) {
 			j7();
 		}else p6 = 1; j6();
 	}
 	static void j7() {
 		String septitais;
-		septitais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Rudolfs || 2 - Arturs || 3 - Kaspars");
+		septitais = JOptionPane.showInputDialog("7. Ja a = 6 un b = 4, tad izteiksmes a!=b vērtība ir \n1 - true \n2 - 6 \n3 - false \n4 - 10");
 		if(Integer.parseInt(septitais) == 1) {
 			j8();
 		}else p7 = 1; j7();
 	}
 	static void j8() {
 		String astotais;
-		astotais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Rudolfs || 2 - Arturs || 3 - Kaspars");
-		if(Integer.parseInt(astotais) == 1) {
+		astotais = JOptionPane.showInputDialog("8. Ja a = 10, b = 2, tad izteiksmes min(a,b) vērtība ir \n1 - true \n2 - 10 \n3 - 2 \n4 - false");
+		if(Integer.parseInt(astotais) == 3) {
 			j9();
 		}else p8 = 1; j8();
 	}
 	static void j9() {
 		String devitais;
-		devitais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Rudolfs || 2 - Arturs || 3 - Kaspars");
-		if(Integer.parseInt(devitais) == 1) {
+		devitais = JOptionPane.showInputDialog("9. Ja a = 15, b = 8 un c = 10, tad izteiksmes max(min(a,b),c) vērtība ir \n1 - 10 \n2 - 7 \n3 - 6 \n4 - 8");
+		if(Integer.parseInt(devitais) == 2) {
 			j10();
 		}else p9 = 1; j9();
 	}
 	static void j10() {
 		String desmitais;
-		desmitais = JOptionPane.showInputDialog("1. Kāds ir tavs vārds || 1 - Rudolfs || 2 - Arturs || 3 - Kaspars");
+		desmitais = JOptionPane.showInputDialog("10. Ja a = 64, tad izteiksmes sqrt(a) vērtība ir \n1 - 8 \n2 - 12 \n3 - 64 \n4 - 5");
 		if(Integer.parseInt(desmitais) == 1) {
 			aprekins();
 		}else p10 = 1; j10();
@@ -88,16 +87,7 @@ public class Tests {
 	}
 
 	public static void main(String[] args) {
-		
-		//Programma tiek startēta pēc kā tiek dota izvēle vai lietotājs vēlas pildīt testu, pēc kā sākas programmas darbība
-		String izvele;
-		
-		izvele = JOptionPane.showInputDialog("Sveiks, lai turpinātu uz testu ievadi 1, lai apturētu programmu ievadi 2");
-		Integer.parseInt(izvele);
-		
-		if(Integer.parseInt(izvele) == 1) {
-				j1();
-			}
+		j1();
 	}
 
 }
